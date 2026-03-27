@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 1410, in <module>
+    test(
+    ~~~~^
+        HandlerClass=handler_class,::1 - - [27/Mar/2026 09:47:58] "GET / HTTP/1.1" 200 -
+::1 - - [27/Mar/2026 09:48:39] "GET /frontend.log HTTP/1.1" 200 -
+::1 - - [27/Mar/2026 09:53:59] "GET / HTTP/1.1" 304 -
+::1 - - [27/Mar/2026 09:53:59] "GET /style.css HTTP/1.1" 304 -
+::1 - - [27/Mar/2026 09:53:59] "GET /script.js HTTP/1.1" 304 -
+::1 - - [27/Mar/2026 09:54:15] "GET / HTTP/1.1" 304 -
+::1 - - [27/Mar/2026 10:00:06] "GET / HTTP/1.1" 304 -
+::1 - - [27/Mar/2026 10:00:06] "GET /style.css HTTP/1.1" 304 -
+::1 - - [27/Mar/2026 10:00:06] "GET /script.js HTTP/1.1" 304 -
+4/http/server.py", line 1397, in server_bind
+    return super().server_bind()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 144, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use

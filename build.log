@@ -1,0 +1,38 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.subscription:subscription-oops >-----------------
+[INFO] Building subscription-oops 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ subscription-oops ---
+[INFO] Deleting /Users/mihir/Desktop/Subscription_oops/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ subscription-oops ---
+[INFO] skip non existing resourceDirectory /Users/mihir/Desktop/Subscription_oops/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ subscription-oops ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ subscription-oops ---
+[INFO] skip non existing resourceDirectory /Users/mihir/Desktop/Subscription_oops/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ subscription-oops ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ subscription-oops ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ subscription-oops ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /Users/mihir/Desktop/Subscription_oops/target/subscription-oops-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ subscription-oops ---
+[INFO] Installing /Users/mihir/Desktop/Subscription_oops/pom.xml to /Users/mihir/.m2/repository/com/subscription/subscription-oops/1.0-SNAPSHOT/subscription-oops-1.0-SNAPSHOT.pom
+[INFO] Installing /Users/mihir/Desktop/Subscription_oops/target/subscription-oops-1.0-SNAPSHOT.jar to /Users/mihir/.m2/repository/com/subscription/subscription-oops/1.0-SNAPSHOT/subscription-oops-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.480 s
+[INFO] Finished at: 2026-03-27T09:32:09+05:30
+[INFO] ------------------------------------------------------------------------

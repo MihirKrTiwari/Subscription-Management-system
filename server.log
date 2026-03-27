@@ -1,0 +1,11 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.subscription:subscription-oops >-----------------
+[INFO] Building subscription-oops 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec:3.1.0:java (default-cli) @ subscription-oops ---
+Subscription server started on port 8080
+Mar 27, 2026 9:47:11 AM sun.net.httpserver.ExchangeImpl sendResponseHeaders
+WARNING: sendResponseHeaders: being invoked with a content length for a HEAD request
