@@ -1,0 +1,30 @@
+:root { --bg:#f4f7fb; --surface:#ffffff; --accent:#5f7dff; --accent-soft:#e8eeff; --text:#2a303d; --muted:#6e7d95; --danger:#ff5c7a; --success:#12b886; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; background:linear-gradient(145deg, #f8fafc, #e8eef7); color:var(--text); }
+.app-shell { max-width:1200px; margin:0 auto; padding:1rem; }
+header { margin-bottom:1rem; }
+header h1 { margin:0; color:#1e2a49; }
+main { display:grid; gap:1rem; }
+.dashboard { display:grid; grid-template-columns:repeat(auto-fit,minmax(245px,1fr)); gap:1rem; }
+.card { background:var(--surface); border-radius:16px; box-shadow:0 8px 24px rgba(122,141,177,.15); padding:1rem; }
+.card h3, .card h2 { margin:0 0 .75rem 0; color:#2e3c59; }
+#total-monthly { font-size:2rem; font-weight:700; color:var(--accent); margin:0; }
+#upcoming-list { margin:0; list-style:none; padding:0; color:var(--muted); }
+#upcoming-list li { margin:.35rem 0; }
+.cards-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:.75rem; }
+.subscription-card { border:1px solid #e3e9f4; border-radius:12px; padding:.85rem; background:#fff; display:flex; flex-direction:column; gap:.4rem; }
+.subscription-card h4 { margin:0; }
+.subscription-card .meta { font-size:.9rem; color:var(--muted); }
+.subscription-card .actions { margin-top:.5rem; display:flex; gap:.6rem; }
+button, select, input, textarea { font:inherit; }
+label { display:block; margin:.45rem 0; color:#44506b; }
+input, select, textarea { width:100%; border:1px solid #c5d0e5; border-radius:8px; padding:.5rem; outline:none; transition:.2s all ease-in-out; }
+input:focus, select:focus, textarea:focus { border-color:var(--accent); box-shadow:0 0 0 3px rgba(95,125,255,.15); }
+.form-actions { display:flex; gap:.65rem; margin-top:.65rem; }
+button { border:none; border-radius:8px; padding:.6rem .85rem; cursor:pointer; background:var(--accent); color:#fff; transition:.15s transform ease, .15s box-shadow ease; }
+button.secondary { background:#dbe7ff; color:#2d436e; }
+button:hover { transform:translateY(-1px); box-shadow:0 4px 10px rgba(69,95,175,.22); }
+button.secondary:hover { background:#c3d6ff; }
+.form-error { margin-top:.5rem; color:var(--danger); min-height:1.2rem; }
+footer { margin-top:1rem; text-align:center; color:var(--muted); font-size:.85rem; }
+@media (max-width:768px){ .app-shell { padding:.75rem; } }

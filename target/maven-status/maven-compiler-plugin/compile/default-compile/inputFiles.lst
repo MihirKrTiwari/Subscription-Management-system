@@ -1,5 +1,4 @@
-/Users/mihir/Desktop/Subscription_oops/src/main/java/com/subscription/Plan.java
-/Users/mihir/Desktop/Subscription_oops/src/main/java/com/subscription/Main.java
-/Users/mihir/Desktop/Subscription_oops/src/main/java/com/subscription/Subscription.java
-/Users/mihir/Desktop/Subscription_oops/src/main/java/com/subscription/CSVHandler.java
-/Users/mihir/Desktop/Subscription_oops/src/main/java/com/subscription/User.java
+/Users/mihir/Desktop/Subscription_oops/src/main/java/com/example/subscriptionmanager/controller/SubscriptionController.java
+/Users/mihir/Desktop/Subscription_oops/src/main/java/com/example/subscriptionmanager/model/Subscription.java
+/Users/mihir/Desktop/Subscription_oops/src/main/java/com/example/subscriptionmanager/service/CsvSubscriptionService.java
+/Users/mihir/Desktop/Subscription_oops/src/main/java/com/example/subscriptionmanager/SubscriptionManagerApplication.java
